@@ -1,0 +1,28 @@
+body{
+  background-color: beige;
+}
+.App {
+  margin: auto;
+  width: 60%;
+  border: 2px solid blue;
+  padding: 10px;
+}
+.stories{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: flex-start;
+  max-width: 600px;
+  background-color: beige;
+}
+.App a {
+  color: blue;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
